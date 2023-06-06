@@ -1,81 +1,447 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="fo-verify" content="31d10310-6918-4699-9834-4ab02e83e64f">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KR5BJLCL6E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html>
+<head>
+  <title>Topthings</title>
+    <style>
 
-  gtag('config', 'G-KR5BJLCL6E');
-</script>
-    <meta charset="UTF-8">
-    <title>Nirmal</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="image/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-  
-    <div class="top-container">
-        <img class="top-cloud" src="image/cloud.png" alt="Cloude">
-        <h1 class="heading"> I'm Nirmal</h1>
-        <h2 class="Subhed">A web designer</h2>
-        <img class="bottom-cloud" src="image/cloud.png" alt="Cloude">
-        <img src="image/mountain.png" alt="Mount">
-    </div>
-
-    <div class="middle-container">
-      <div class="profile">
-        <img class="pp" src="image/IMG-20230318-WA0007.jpg" alt="" width="150" height="150">
-        <h2>Hello.</h2>
-        <p class="pr">I am web freelance web developer with 8 years of experence and worked on multiple projects with major companies</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="si" src="image/coding.png" alt="" width="150" height="150">
-          <h3>Web Developement</h3>
-          <p class="pq">HTML CSS JS and other frontend technologies combined with backend database intergration able to develope website & web applications based on 
-            user requirments.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img class="pi" src="image/brush.png" alt="" width="150" height="150">
-          <h3>Branding</h3>
-          <p>Excelent knowledge in branding, Full package designs with industries standered from logo to full functioning website includes all social media designes which a brand required</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>For all branding and design requirments</h3>
-        <p>Immediate and prefect soluations with fulltime client support</p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-      </div>
-
-
-    </div>
-
-    <div class="bottom-container">
-     
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-  <a class="footer-link" href="https://twitter.com/">Twitter</a>
-  <a class="footer-link" href="">Website</a>
-  <p>© Nirmal Kumar.</p>
-
-
-    </div>
-    <main>
+    html {
+      background-color: #f1a156;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
-    </main>
-    <footer>
-      <p>&copy; 2023 My Website. All rights reserved.</p>
-    </footer>
-  </body>
+    }
+    
+    .flex-item {
+      margin: 10px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+    }
+    
+    .flex-item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    h1 {
+      color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+    }
+    .footer {
+  background-color: #f18f32;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #272626;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #ff6f00;
+}
+header {
+            background-color: #fa7304;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .logo {
+            margin-right: 20px;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+        
+        .logo img {
+            
+            height: 40px;
+            width: auto;
+            align-items: start;
+        }
+        
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        ul.menu li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        ul.menu li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+        }
+        
+        ul.menu li a:hover {
+            background-color: #f8f6f6;
+            color: #9c4307;
+        }
+
+  </style>
+   <header>
+    <div class="logo">
+        <img src="C:\Users\91720\Desktop\tt.png" alt="Logo">
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><sup>Powered by amazon</sup></li>
+            <li>   &nbsp; &nbsp;&nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   </li>
+            
+            <li>                                 </li>
+            <li><a href="topthings.shop">Home</a></li>
+            <li><a href="#">Top Deals</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</header>
+<div>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/42oWe6u">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Wireless/CEEX/OnePlus6/IN_WLME_OnePlus7Pro_Miscellaneous_472x674.jpg" alt="Image 2">
+      </a>
+      <h1>mobile</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/43DjIWB ">
+      <img src="https://m.media-amazon.com/images/I/81WTprMJDRL._AC_UL320_.jpg" alt="Laptop">
+      </a>
+      <h1>Laptop </h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3MKOK8g">
+      <img src="https://m.media-amazon.com/images/I/61m9NCmxRaL._AC_UL320_.jpg" alt="Telivision">
+      </a>
+      <h1>TV </h1>
+    </div>
+    <div class="flex-item">
+      <a href=" https://amzn.to/3OS4BnT">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/51L75Bk2fCS._AC_SX184_.jpg" alt="Camera">
+      </a>
+      <h1>Camera</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3N91h6N ">
+      <img src="https://m.media-amazon.com/images/I/51GFkbOuZlL._AC_UL320_.jpg" alt="Printer">
+      </a>
+      <h1>Printer</h1>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href=" https://amzn.to/43BcVg0">
+      <img src="https://m.media-amazon.com/images/I/61q-2yzbBtL._AC_UL320_.jpg" alt="Head Phone">
+      </a>
+      <h1>Head Phone</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/42jqkIC">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/31f2KGpAkCL._AC_SX184_.jpg" alt="Speaker">
+      </a>
+      <h1>Speaker</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3WNweAD ">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/315GYJ3MhcL._AC_SX184_.jpg" alt="Sound Bar">
+      </a>
+      <h1>Sound Bar</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3MN9FY7 ">
+      <img src="https://m.media-amazon.com/images/I/51htasm59TL._AC._SR360,460.jpg" alt="Projector">
+      </a>
+      <h1>Projector</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3MKxjV7 ">
+      <img src="https://m.media-amazon.com/images/I/71cV-ickxOL._AC_UL400_.jpg" alt="Smart Speakers">
+      </a>
+      <h1>Smart Speakers</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/3oO2RRZ ">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/EOSS/June/Halos-skincare._SS300_QL85_.jpg" alt="Skin Care">
+      </a>
+      <h1>Skin Care</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3OS2nVD ">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/EOSS/June/Halos/Halos-06._SS300_QL85_.jpg" alt="Hair Care">
+      </a>
+      <h1>Hair Care</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3WJvrkf">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/EOSS/June/Halos/Halos-05._SS300_QL85_.jpg" alt="Make up">
+      </a>
+      <h1>Make up</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3OLR6pY">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/aman/Halos-101._SS300_QL85_.jpg" alt="Deo & Fragrances">
+      </a>
+      <h1>Deo & Fragrances</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3N6ZKho">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/EOSS/June/Halos/Halos-01._SS300_QL85_.jpg" alt="Top Rated Beauty">
+      </a>
+      <h1>Top Rated Beauty</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/3C6xg12">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/aman/Halos_1._SS300_QL85_.jpg" alt="Beauty Device">
+      </a>
+      <h1>Beauty Device</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3Ned83v">
+      <img src="https://m.media-amazon.com/images/G/31/img22/PCA/PCAxSL/Halo_PCA_-mens-rev._SS300_QL85_.jpg" alt="Mens Grooming">
+      </a>
+      <h1>Men's Grooming</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/43Go538">
+      <img src="https://m.media-amazon.com/images/G/31/img22/PCA/SBCbeauty/Halo_PCA_rev-womens._SS300_QL85_.jpg" alt="Womens Grooming">
+      </a>
+      <h1>WomenGrooming</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3OXdDAj">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Beauty/naireshm_beauty/Halo._SS300_QL85_.jpg" alt="Bath & Shower">
+      </a>
+      <h1>Bath & Shower</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3IYAPdk">
+      <img src="https://m.media-amazon.com/images/I/416A90TGq+L._AC._SR240,240.jpg" alt="Foot Care">
+      </a>
+      <h1>Foot Care</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/3oOKpc1">
+      <img src="https://m.media-amazon.com/images/I/41fVMgSnyWL.AC_SX250.jpg" alt="Kitchen">
+      </a>
+      <h1>Kitchen</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3CcdvVJ">
+      <img src="https://m.media-amazon.com/images/I/71tmg7KcYWL._AC_UY218_.jpg" alt="Microwave Oven">
+      </a>
+      <h1>Microwave Oven</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3NbKWhF">
+      <img src="https://m.media-amazon.com/images/I/51RXzjrUmkL._AC_UL320_.jpg" alt="Kitchen tools">
+      </a>
+      <h1>Kitchen tools</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3OTqkfp">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/31vCSn5pLcL._AC_SX184_.jpg" alt="Refrigerators">
+      </a>
+      <h1>Refrigerators</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3oMv4bV">
+      <img src="https://m.media-amazon.com/images/I/41xJDEM1Z0L._AC._SR180,230.jpg" alt="Cookware">
+      </a>
+      <h1>Cookware</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/3qkSCVI">
+      <img src="https://m.media-amazon.com/images/I/41oJpA4cCmL._AC._SR180,230.jpg" alt="Mixer Grinder">
+      </a>
+      <h1>Mixer Grinder</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3OTgcDr">
+      <img src="https://m.media-amazon.com/images/I/41oLlme7wAL._AC._SR180,230.jpg" alt="Electric Cooker">
+      </a>
+      <h1>Electric Cooker</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/42s7LSq">
+      <img src="https://m.media-amazon.com/images/I/41zpdXRlXTL._AC._SR180,230.jpg" alt="Deep Fryer">
+      </a>
+      <h1>Deep Fryer</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3MPGp2V">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/41MV0VHldDL._AC_SX184_.jpg" alt="Water Purifier">
+      </a>
+      <h1>Water Purifier</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/43K153f">
+      <img src="https://m.media-amazon.com/images/I/61yxl1naw6L._AC._SR360,460.jpg" alt="Coffee Machine">
+      </a>
+      <h1>Coffee Machine</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/45Lmj2z">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/41mq0VdfVOL._AC_SX184_.jpg" alt="Washing Machine">
+      </a>
+      <h1>Washing Machine</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3OYqmCO">
+      <img src="https://m.media-amazon.com/images/I/41Dd4+t6fsL._AC_UL320_.jpg" alt="Air Conditioner">
+      </a>
+      <h1>Air Conditioner</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3IXcS6m">
+      <img src="https://m.media-amazon.com/images/I/31RPzt7aOpL._AC._SR180,230.jpg" alt="Inverters">
+      </a>
+      <h1>Inverter</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/42rv8Ma">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/31qznKIdJxL._AC_SX184_.jpg" alt="Water Heaters">
+      </a>
+      <h1>Water Heaters</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3MPcGHv">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/41wNN-1GDAS._AC_SX184_.jpg" alt="Air Coolers">
+      </a>
+      <h1>Air Coolers</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/42o6Nqr">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/31TK2CBLKbL._AC_SX184_.jpg" alt="Mattress">
+      </a>
+      <h1>Mattress</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3ITu4K8">
+      <img src="https://m.media-amazon.com/images/I/51Xp0fCS85L._AC_UL320_.jpg" alt="Sofa Sets">
+      </a>
+      <h1>Sofa Sets</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3Ceno5j">
+      <img src="https://m.media-amazon.com/images/I/51SlqiUcOuL.AC_SX250.jpg" alt="Furniture">
+      </a>
+      <h1>Furniture</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3CaKtWK">
+      <img src="https://m.media-amazon.com/images/I/816BSTUdXfL._AC._SR360,460.jpg" alt="Bedroom Linen">
+      </a>
+      <h1>Bedroom Linen</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3qkUZYC">
+      <img src="https://m.media-amazon.com/images/I/51PkEq1gY4L._AC_UL320_.jpg" alt="Carpet & Rugs">
+      </a>
+      <h1>Carpet & Rugs</h1>
+    </div>
+  </div>  
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="https://amzn.to/3NepTec">
+      <img src="https://m.media-amazon.com/images/G/31/img22/Fashion/Flips/Winterflip2/Halos/halo-4._SS300_QL85_.jpg" alt="Mens Clothing">
+      </a>
+      <h1>Men's Clothing</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/43ufbWL">
+      <img src="https://m.media-amazon.com/images/G/31/img18/Fashion/September18/Flyouts/Women.jpg" alt="Women's Clothing">
+      </a>
+      <h1>Women's Clothing</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3Nczi55">
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/31NkzcEwg6S._AC_SX184_.jpg" alt="Handbags">
+      </a>
+      <h1>Handbags</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3Cg4gE0">
+      <img src="https://m.media-amazon.com/images/G/31/Symbol/2021/BTF_PC/SPORTS/BTF_PC_69._SS400_QL85_.jpg" alt="Sports wear">
+      </a>
+      <h1>Sports wear</h1>
+    </div>
+    <div class="flex-item">
+      <a href="https://amzn.to/3MUcmXQ">
+      <img src="https://m.media-amazon.com/images/I/61egMfcDWlL._AC_UL320_.jpg" alt="Bags & Luggage">
+      </a>
+      <h1>Bags & Luggage</h1>
+    </div>
+  </div>  
+  
+</body>
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2023 Topthings.shop All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
 </html>
